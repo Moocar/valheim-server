@@ -59,3 +59,9 @@ A Valheim server.
     ```
     sudo service valheim status
     ```
+
+6. To see live logs, run
+
+    ```
+    sudo journalctl -u valheim -b -f
+    ```
